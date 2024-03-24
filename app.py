@@ -42,7 +42,7 @@ file_path_region = './Regionss-medium.csv'
 df_region = pd.read_csv(file_path_region, encoding='latin1')
 
 # Read the data from the CSV file for sustainable development goals
-file_path_sdg = './SDG-medium.csv'
+file_path_sdg = './SDG-Medium.csv'  # Update the file path
 df_sdg = pd.read_csv(file_path_sdg)
 
 # Streamlit app
